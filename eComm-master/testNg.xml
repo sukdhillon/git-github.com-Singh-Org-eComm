@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Buyer Experience" parallel = "false">
+	<test name="Add To Cart UI Test">
+	    <parameter name="baseUrl" value="http://www.williams-sonoma.com/"></parameter>
+		<classes>
+			<class name = "com.williamssonoma.buyerexperience.TestObject.TryThis"></class>
+		</classes>
+	</test>
+</suite>

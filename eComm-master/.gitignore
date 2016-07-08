@@ -1,0 +1,6 @@
+/target/
+.project
+.setting*
+test-output*
+*html
+.classpath
